@@ -17,7 +17,6 @@ def get_cats_info(path):
     except Exception as e:
         print(f"Сталася помилка: {e}")
         return []
-
 path = "path/to/cats_file.txt"
 cats_info = get_cats_info(path)
 print(cats_info)
